@@ -26,7 +26,7 @@ const posts = [
         content: 'jane.design/doctorcare',
       },
     ],
-    published: new Date('2022-05-03')
+    publishedAt: new Date('2023-02-01')
   },
 ];
 
@@ -44,7 +44,7 @@ export function App() {
               <Post
                 author={post.author}
                 content={post.content}
-                published={post.published}
+                publishedAt={post.publishedAt}
               />
             )
           })}
